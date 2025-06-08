@@ -1,0 +1,23 @@
+{
+    "id": "nix-dood",
+    "version": "1.0.0",
+    "name": "Nix with Docker outside of Docker",
+    "description": "A Template to use nix flakes and the devcontainer's docker host access.",
+    "documentationURL": "https://github.com/feenx-lab/feenx-devcontainers/tree/main/src/nix-dood",
+    "licenseURL": "https://github.com/feenx-lab/feenx-devcontainers/blob/main/LICENSE",
+    "options": {
+        "greeting": {
+            "type": "string",
+            "description": "Select a pre-made greeting, or enter your own",
+            "proposals": [
+                "Welcome to your declarative, Nix-powered, dev environment setup.",
+                "Dev environment ready.",
+                "Autobots assemble!"
+            ],
+            "default": "Welcome to your declarative, Nix-powered, dev environment setup."
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
