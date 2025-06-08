@@ -12,8 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            color: ./**/color/**
-            hello: ./**/hello/**
+            color: ./**/nix-dood/**
 
   test:
     needs: [detect-changes]
