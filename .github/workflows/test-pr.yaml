@@ -12,7 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            color: ./**/nix-dood/**
+            nix-dood: ./**/nix-dood/**
 
   test:
     needs: [detect-changes]
